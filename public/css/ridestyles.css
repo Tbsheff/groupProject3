@@ -1,0 +1,108 @@
+table {
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+th {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+td {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+/* Apply some basic styling to the form container */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Style the form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+/* Add some hover effect to the submit button */
+input[type="submit"]:hover {
+    background-color: white;
+    color: #4caf50;
+}
+
+h2 {
+    margin: auto;
+    width: fit-content;
+    padding-top: 1rem;
+}
+
+#submitButton {
+    margin-bottom: 0;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    min-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.styled-table thead tr {
+    background-color: #009688;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f7f7f7;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009688;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #e0f2f1;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009688;
+}
